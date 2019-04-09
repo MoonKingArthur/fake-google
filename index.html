@@ -2,16 +2,25 @@
 <html>
     <head>
         <title>Fake Google</title>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     </head>
     <body>
         <!--Top Banner-->
         <div class="top-banner">
-            <p>About</p>
-            <p>Store</p>
-            <p>Mail</p>
-            <p>Images</p>
+
+            <!--Top Right-->
+            <div class="top-right">
+                <p>About</p>
+                <p>Store</p>
+                
+            </div>
+
+            <!--Top Left-->
+            <div class="top-left">
+                <p>Mail</p>
+                <p>Images</p>
+            </div>
             
             </div>
             
@@ -20,27 +29,36 @@
         <form action="somescript.php" method="GET">
 
             <!--Fake Google Logo-->
-            <h1>Fake Google</h1>
-
+            <img src="fake-google.jpg" alt="Fake Google logo">
+            <br>
+            
             <!--Text Box-->
-            <input type="text" name="name">
+            <input type="text" name="search" class="search">
             <br>
 
             <!--Submit button-->
             <input type="submit" value="Google Search">
 
-        </form>
+            <!--I'm feeling lucky-->
+            <input type="button" value="I'm Feeling Lucky">
 
-        <!--I'm feeling lucky-->
-        <input type="button" value="I'm Feeling Lucky">
+        </form>
+        <br>
+        
 
         <!--Bottom Banner-->
         <div class="bottom-banner">
-            <p>Advertising</p> 
-            <p>Business</p>
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Settings</p>
+
+            <div class="bottom-left">
+                <p>Advertising</p> 
+                <p>Business</p>
+            </div>
+
+            <div class="bottom-right">
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+            </div>
         </div>
     </body>
 </html>

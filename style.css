@@ -1,0 +1,52 @@
+* {
+    /* Reset CSS style
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit; 
+    vertical-align: baseline; */
+
+    font-family: "Open Sans", sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+.top-left {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.top-right {
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.top-right, .top-left, .top-right p, .top-left p, .bottom-banner p ,.bottom-left, .bottom-right {
+    display: inline;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.bottom-banner{
+    background-color: rgb(201, 201, 201);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-right{
+    float: right;
+}
+
+.bottom-left {
+    float: left;
+}
+.search {
+    width: 25%;
+}
