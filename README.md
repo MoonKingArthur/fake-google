@@ -3,6 +3,9 @@ Project involving HTML and CSS
 
 Completion of this project shows that I have proficiency in HTML and CSS
 
+03/13/2019 15:30: Here is a link to the site: https://moonkingarthur.github.io/google-homepage/
+
+
 03/09/2019 03:05
 
 All done! Here's a preview of the finished site:
