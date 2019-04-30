@@ -3,7 +3,7 @@ Project involving HTML and CSS
 
 Completion of this project shows that I have proficiency in HTML and CSS
 
-Here is a link to the site: https://moonkingarthur.github.io/google-homepage/
+[Here is a link to the site](https://moonkingarthur.github.io/fake-google/)
 
 
 
